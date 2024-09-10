@@ -22,6 +22,8 @@ app.useGlobalPipes(
 
 await app.listen(envs.port);
 
+console.log('Mechi cush cush cush cush')
+
 logger.log(`Gateway running on port ${envs.port}`)
 }
 bootstrap();
